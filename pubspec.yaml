@@ -13,11 +13,12 @@ dev_dependencies:
 
 flutter:
   plugin:
-    android:
-      package: com.lykhonis.simpleimagecrop
-      pluginClass: SimpleImageCropPlugin
-    ios:
-      pluginClass: SimpleImageCropPlugin
+    platforms:
+      android:
+        package: com.lykhonis.simpleimagecrop
+        pluginClass: SimpleImageCropPlugin
+      ios:
+        pluginClass: SimpleImageCropPlugin
 
 environment:
   sdk: ">=2.0.0 <3.0.0"
